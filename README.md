@@ -20,6 +20,7 @@ While working as a Warehouse Associate at an Amazon last-mile delivery station i
    - **Journey:** Fulfillment center (sealing) → Transportation → Delivery station (sorting) → Delivery.  
    - **Mistakes:** Ignoring open seals, mishandling envelopes.  
    - **Cost:** “An open envelope risks a 1-day delay, reducing trust by 15%.”  
+   - *See `journey_flowchart.png` for a visual of the package journey with error points highlighted.*  
 2. **Process Tweak:** Add a seal-check step at sorting—flag open envelopes for repackaging.  
 
 ## Impact
