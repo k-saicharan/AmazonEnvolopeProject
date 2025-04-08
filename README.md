@@ -7,7 +7,8 @@ While working as a Warehouse Associate at an Amazon last-mile delivery station i
 *Hypothetical yet highly probable scenarios derived from firsthand experience:*  
 - In a typical UK delivery station, 5% of 50,000 daily packages (2,500) are envelopes; 20% of those (500) arrive unsealed (based on my observation).  
 - 30% of affected customers (150) report dissatisfaction or return items (aligned with UK e-commerce return trends).  
-- *See `unsealed_envelopes.png` for a visualization of unsealed envelope trends, highlighting peak season spikes (Nov-Jan).*  
+- Below is a visualization of unsealed envelope trends, highlighting peak season spikes (Nov-Jan):  
+  ![Unsealed Envelopes by Month](unsealed_envelopes.png)  
 
 ## Analysis
 - **Root Cause:** Open envelopes likely occur during transportation (fulfillment center to station) due to weak sealing or rough handling. Associates may overlook this at sorting, *especially during peak season (November to January) when high volumes increase pressure and errors.*  
@@ -20,7 +21,8 @@ While working as a Warehouse Associate at an Amazon last-mile delivery station i
    - **Journey:** Fulfillment center (sealing) → Transportation → Delivery station (sorting) → Delivery.  
    - **Mistakes:** Ignoring open seals, mishandling envelopes.  
    - **Cost:** “An open envelope risks a 1-day delay, reducing trust by 15%.”  
-   - *See `journey_flowchart.png` for a visual of the package journey with error points highlighted.*  
+   - Below is a visual of the package journey with error points highlighted:  
+     ![Package Journey Flowchart](journey_flowchart.png)  
 2. **Process Tweak:** Add a seal-check step at sorting—flag open envelopes for repackaging.  
 
 ## Impact
